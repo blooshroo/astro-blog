@@ -63,6 +63,18 @@ html {
     display: unset;
   }
   
+  /* Dark Mode Styles */
+
+  html.dark {
+    background-color: #0d0950;
+    color: #fff;
+  }
+  
+  .dark .nav-links a {
+    color: #fff;
+  }
+
+  /* Responsivity */
   @media screen and (min-width: 636px) {
     .nav-links {
       margin-left: 5em;
